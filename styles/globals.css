@@ -1,9 +1,11 @@
 html,
 body {
-  padding: 0;
-  margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    direction: rtl;
+    background:var(--bg);
+    color:var(--text);
+    line-height: 30px;
 }
 
 a {
@@ -13,14 +15,14 @@ a {
 
 * {
   box-sizing: border-box;
+  padding:0;
+  margin:0;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+:root {
+  --prime:#06283D;
+  --second:#47B5FF;
+  --text:#2C3639;
+  --bg: #DFF6FF;
+  --navHeight:100px;
 }

@@ -1,0 +1,51 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: var(--navHeight);
+  font-size:18px;
+  color:#fff;
+  background:var(--prime);
+}
+.logo {
+  height: 60px;
+}
+.nav > div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav .menu_icon {
+  display: none;
+  height: 40px;
+}
+.nav > div:first-child {
+  width:60%;
+}
+.nav > div:last-child {
+  width:40%;
+}
+.nav a {
+  padding:10px 20px;
+  border-radius:30px;
+}
+.nav .signup {
+  color:#fff;
+  background:var(--second)
+}
+
+
+@media (max-width: 600px) {
+  .nav p,
+  .nav div:last-child {
+    display: none;
+  }
+  .nav div {
+    width:100% !important;
+    justify-content: space-between;
+    padding:0 20px;
+  }
+  .nav .menu_icon {
+    display: block
+  }
+}
