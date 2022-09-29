@@ -53,6 +53,52 @@ export default function Home() {
         </div>
       </div>
 
+      <div className={s.steps}>
+        <section>
+          <h2>خطوات سهلة وبسيطة عشان تبدأ</h2>
+          <p>كيف يعمل الموقع ؟</p>
+        </section>
+        <div>
+          <div className={s.step}>
+            <p className={s.number}>١</p>
+            <img src="/images/static/how-create.svg" alt="" />
+            <p>
+              سجل حسابك على موقع تاجر
+            </p>
+          </div>
+          <div className={s.step}>
+            <p className={s.number}>٢</p>
+            <img src="/images/static/how-select.svg" alt="" />
+            <p>
+              سجل حسابك على موقع تاجر
+            </p>
+          </div>
+          <div className={s.step}>
+            <p className={s.number}>٣</p>
+            <img src="/images/static/how-order.svg" alt="" />
+            <p>
+              سجل حسابك على موقع تاجر
+            </p>
+          </div>
+          <div className={s.step}>
+            <p className={s.number}>٤</p>
+            <img src="/images/static/how-earn.svg" alt="" />
+            <p>
+              سجل حسابك على موقع تاجر
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div className={s.reviews}>
+        <section>
+          <p><span>آراء المستخدمين</span></p>
+        </section>
+        <div>
+
+        </div>
+      </div>
+
     </div>
   )
 }

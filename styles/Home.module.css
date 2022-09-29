@@ -10,7 +10,6 @@
 .header p {
   color:#fff;
   font-size: 50px;
-  font-weight: bold;
 }
 .header h1 {
   color:#fff;
@@ -36,7 +35,7 @@
 }
 .intro img {
   width:50%;
-  margin-left:20px;
+  margin:0 30px;
 }
 .intro .title {
   display: inline;
@@ -92,11 +91,74 @@
   color:#0b1725a6;
   margin-top: 20px;
 }
+/* ================ steps ============ */
+.steps {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background:#f0f0f0;
+  height: 100vh;
+}
+.steps > div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width:100%;
+}
+.steps section {
+  text-align: center;
+}
+.steps section h2 {
+  font-size: 2rem;
+}
+.steps section p {
+  color:grey;
+  margin-top:20px;
+  font-size: 1.3rem;
+}
+.step {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius:8px;
+  text-align: center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-top:10px solid var(--second);
+  height: 340px;
+  width:200px;
+  padding:0 8px;
+  margin:0 10px;
+}
+.step .number {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:var(--prime);
+  top:-46px;
+  left:50%;
+  transform: translateX(-50%);
+  height:40px;
+  width:40px;
+  border-radius:50%;
+  font-size: 20px;
+  color:#fff;
+}
+.step p {
+  margin-top:30px;
+  font-size:1.3rem;
+}
+/* ======== Reviews ======= */
+.reviews {
+  height: 100vh;
+}
 
 
 
-
-
+/* ============ Media Queries ========== */
 @media (max-width: 600px) {
   .header p {
     font-size: 30px;
