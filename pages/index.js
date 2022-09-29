@@ -23,6 +23,36 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      <div className={s.intro_2}>
+        <section>
+          <p className={s.title}>هتلاقي كل اللى انت محتاجه عشان تبدأ كتاجر</p>
+          <p className={s.desc}>بنسهلّك كل حاجة عشان توفّر مجهودك في إقناع عملائك بالمنتجات</p>
+        </section>
+        <div>
+          <div className={s.card}>
+            <img src="/images/static/v-order.svg" alt="" />
+            <h4>عليك الأوردر وعلينا الباقي</h4>
+            <p className={s.desc}> كل اللي عليك انك تعمل الاوردر من عندنا واحنا بنتكفل بكل حاجة لحد ما المنتج يوصل للعميل </p>
+          </div>
+          <div className={s.card}>
+            <img src="/images/static/v-wallet.svg" alt="" />
+            <h4>عليك الأوردر وعلينا الباقي</h4>
+            <p className={s.desc}> كل اللي عليك انك تعمل الاوردر من عندنا واحنا بنتكفل بكل حاجة لحد ما المنتج يوصل للعميل </p>
+          </div>
+          <div className={s.card}>
+            <img src="/images/static/v-profit.svg" alt="" />
+            <h4>عليك الأوردر وعلينا الباقي</h4>
+            <p className={s.desc}> كل اللي عليك انك تعمل الاوردر من عندنا واحنا بنتكفل بكل حاجة لحد ما المنتج يوصل للعميل </p>
+          </div>
+          <div className={s.card}>
+            <img src="/images/static/v-marketing.svg" alt="" />
+            <h4 className={s.title}>عليك الأوردر وعلينا الباقي</h4>
+            <p className={s.desc}> كل اللي عليك انك تعمل الاوردر من عندنا واحنا بنتكفل بكل حاجة لحد ما المنتج يوصل للعميل </p>
+          </div>
+        </div>
+      </div>
+
     </div>
   )
 }
