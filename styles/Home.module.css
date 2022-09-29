@@ -207,7 +207,14 @@
   border-radius:50%;
   margin:0 20px;
 }
-
+/* ================== Start Now ================== */
+.start {
+  height: 300px;
+  background-image:url("../public/images/static/pattern.png");
+  background-size: cover;
+  background-position: center;
+}
+.start {}
 
 /* ============ Media Queries ========== */
 @media (max-width: 600px) {

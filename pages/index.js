@@ -141,6 +141,12 @@ export default function Home() {
         </main>
       </div>
 
+      <div className={s.start}>
+        <p className={s.title}>كل اللى عليك انك تسجل وتشوف المنتجات</p>
+        <p className={s.desc}> تاجر بتدعم كل اللي بيفكر يبني تجارة إلكترونية خاصة بيه بخدمات كتير </p>
+        <a href="/singup">إبدأ الآن</a>
+      </div>
+
     </div>
   )
 }
