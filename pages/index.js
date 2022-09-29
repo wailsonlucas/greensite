@@ -92,11 +92,53 @@ export default function Home() {
 
       <div className={s.reviews}>
         <section>
-          <p><span>آراء المستخدمين</span></p>
+        <img src="/images/static/users-bubble.svg" alt="" />
+          <p>آراء المستخدمين</p>
         </section>
-        <div>
-
-        </div>
+        <main>
+          <div className={s.review}>
+            <main>
+              <p>
+                "انا صفحتي كانت شغالة حلو في الفيوم و كنت نفسي افتح في القاهرة بس ماكانش معايا راس مال كافي و شركة تاجر وفرتلي منظومة متكاملة من غير تكاليف"
+              </p>
+            </main>
+            <footer>
+              <img src="/images/static/user.jpg" alt="" />
+              <div>
+                <b>محمد شرابي</b>
+                <p>الدكان</p>
+              </div>
+            </footer>
+          </div>
+          <div className={s.review}>
+            <main>
+              <p>
+                "انا صفحتي كانت شغالة حلو في الفيوم و كنت نفسي افتح في القاهرة بس ماكانش معايا راس مال كافي و شركة تاجر وفرتلي منظومة متكاملة من غير تكاليف"
+              </p>
+            </main>
+            <footer>
+              <img src="/images/static/user.jpg" alt="" />
+              <div>
+                <b>محمد شرابي</b>
+                <p>الدكان</p>
+              </div>
+            </footer>
+          </div>
+          <div className={s.review}>
+            <main>
+              <p>
+                "انا صفحتي كانت شغالة حلو في الفيوم و كنت نفسي افتح في القاهرة بس ماكانش معايا راس مال كافي و شركة تاجر وفرتلي منظومة متكاملة من غير تكاليف"
+              </p>
+            </main>
+            <footer>
+              <img src="/images/static/user.jpg" alt="" />
+              <div>
+                <b>محمد شرابي</b>
+                <p>الدكان</p>
+              </div>
+            </footer>
+          </div>
+        </main>
       </div>
 
     </div>
